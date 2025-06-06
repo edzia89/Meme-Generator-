@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="styleMeme.css">
+</head>
+ 
+<body>
+  <div class="background">
+  <h1 class="title">Meme Generator</h1>
+  <p class="subtitle">Let's make your own Meme!</p>
+  </div>   
+  <form action="" id="memeform">
+    <p>
+      <label for="image">Enter image URL: 
+        <input type="url" name="image" id="image" placeholder="Enter the URL of the image you want to use">
+      </label>
+    </p>
+    <p>
+      <label for="toptext">Enter top text: 
+        <input type="text" name="toptext" id="toptext" placeholder="Enter the text you want to add">
+      </label>
+    </p>
+    <p>
+      <label for="bottomtext">Enter bottom text: 
+        <input type="text" name="bottomtext" id="bottomtext" placeholder="Enter the text you want to add">
+      </label>
+    </p>
+    <!-- <input type="Submit"> -->
+    <button class="btn">Submit</button>
+  </form>  
+  
+  <section id="results" class="newmeme">
+    <div class="final-result">
+      <img src="roll-meme.jpg" alt="meme image guy" class="img-meme" >
+      <div class="toptext-meme">You can't be broke</div>
+      <div class="bottomtext-meme">if you don't check your bank account</div>
+    </div>
+    <div class="final-result">
+      <img src="roll-meme.jpg" alt="meme image guy" class="img-meme" >
+      <div class="toptext-meme">You can't be broke</div>
+      <div class="bottomtext-meme">if you don't check your bank account</div>
+    </div>
+    <div class="final-result">
+      <img src="roll-meme.jpg" alt="meme image guy" class="img-meme" >
+      <div class="toptext-meme">You can't be broke</div>
+      <div class="bottomtext-meme">if you don't check your bank account</div>
+    </div><div class="final-result">
+      <img src="roll-meme.jpg" alt="meme image guy" class="img-meme" >
+      <div class="toptext-meme">You can't be broke</div>
+      <div class="bottomtext-meme">if you don't check your bank account</div>
+    </div>
+
+  </section>
+
+  <spript src="appMeme.js"></script>
+</body>
+</html>
